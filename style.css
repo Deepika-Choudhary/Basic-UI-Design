@@ -1,0 +1,66 @@
+body{
+    background: url('bg.jpg') ;
+    /* opacity: 1; */
+    background-size: cover;
+    color: whitesmoke;
+}
+
+.navbar{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+}
+
+#nav_items li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 1rem 0 0 4rem;
+}
+
+.heading{
+    width : 18rem;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+}
+
+.box ul{
+    margin-left: -37px;
+}
+
+.box li{
+    list-style-type: none;
+    display: inline-block;
+    width: 6rem;
+    background-color: gray;
+    opacity: 0.5;
+    padding: 0.7rem;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+.booking div{
+    display: inline-block;
+    margin: 2rem;
+}
+
+.booking div select{
+    width: 15rem;
+}
+
+.booking{
+    border-top-right-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+    background-color: tomato;
+    opacity: 0.8;
+    /* width: 100%; */
+    margin-top: -0.5rem;
+}
+
+#btn{
+    background-color: rgb(255, 17, 0);
+    font-size: 1rem;
+    margin: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    color: whitesmoke;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+}

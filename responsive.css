@@ -1,0 +1,33 @@
+body{
+    background-repeat: no-repeat;
+    max-width: 100%;
+}
+.navbar{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.navbar ul {
+    margin-left: -66px;
+}
+
+ #nav_items li{
+    display: block;  
+} 
+
+.heading{
+    width : auto;
+    margin-left: 2rem;
+}
+
+.box{
+    margin-bottom: 1rem;
+}
+
+.box li{
+    width: auto;
+}
+
+.booking div select{
+    width: auto;
+}
